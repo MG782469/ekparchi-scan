@@ -1,0 +1,42 @@
+{
+  "order_id": "ORD-261015215059F",
+  "patient": {
+    "op": "2026-104857",
+    "name": "Ramesh Kumar",
+    "age": "60",
+    "sex": "M"
+  },
+  "tests": [
+    "CBC",
+    "Blood sugar (F/PP/R)"
+  ],
+  "needs_check": [
+    {
+      "box": 8,
+      "test": "CRP",
+      "x_beside_box": true
+    }
+  ],
+  "consent": {
+    "WhatsApp / SMS": "ticked",
+    "Add report to my ABHA": "empty"
+  },
+  "samples": [
+    {
+      "sample_id": "EP-4WF2QZ-A",
+      "tube": "EDTA",
+      "tests": [
+        "CBC"
+      ],
+      "scanned": 0
+    },
+    {
+      "sample_id": "EP-4WF2QZ-B",
+      "tube": "FLUORIDE",
+      "tests": [
+        "Blood sugar (F/PP/R)"
+      ],
+      "scanned": 0
+    }
+  ]
+}

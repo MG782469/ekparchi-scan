@@ -1,0 +1,26 @@
+{
+  "stand": {
+    "photos": 100,
+    "marks_found_%": 100.0,
+    "qr_read_%": 100.0,
+    "taps_per_slip": 0.22,
+    "wrong_boxes": 0,
+    "slips_fully_right_after_check_%": 100.0
+  },
+  "phone": {
+    "photos": 100,
+    "marks_found_%": 100.0,
+    "qr_read_%": 100.0,
+    "taps_per_slip": 0.79,
+    "wrong_boxes": 4,
+    "slips_fully_right_after_check_%": 99.0
+  },
+  "hard": {
+    "photos": 100,
+    "marks_found_%": 83.0,
+    "qr_read_%": 78.0,
+    "taps_per_slip": 1.35,
+    "wrong_boxes": 13,
+    "slips_fully_right_after_check_%": 77.0
+  }
+}
