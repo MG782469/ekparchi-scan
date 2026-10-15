@@ -1,0 +1,31 @@
+{
+  "_note": "Test list and tube types are a starting point; the clinical mentor confirms them with doctors and the lab in-charge (Day 8-18).",
+  "hospital_name": "GOVT. HOSPITAL",
+  "tests": [
+    {"name": "CBC", "tube": "EDTA"},
+    {"name": "Blood sugar (F/PP/R)", "tube": "FLUORIDE"},
+    {"name": "HbA1c", "tube": "EDTA"},
+    {"name": "LFT", "tube": "SERUM"},
+    {"name": "RFT", "tube": "SERUM"},
+    {"name": "Lipid profile", "tube": "SERUM"},
+    {"name": "Urine routine", "tube": "URINE"},
+    {"name": "CRP", "tube": "SERUM"},
+    {"name": "Thyroid (TSH)", "tube": "SERUM"},
+    {"name": "Malaria / Dengue", "tube": "EDTA"},
+    {"name": "Serum electrolytes", "tube": "SERUM"},
+    {"name": "Widal", "tube": "SERUM"}
+  ],
+  "tubes": {
+    "EDTA": {"label": "Purple top (EDTA)", "colour": [123, 63, 160]},
+    "FLUORIDE": {"label": "Grey top (fluoride)", "colour": [140, 140, 140]},
+    "SERUM": {"label": "Red/yellow top (serum)", "colour": [214, 160, 30]},
+    "URINE": {"label": "Urine container", "colour": [230, 200, 60]}
+  },
+  "cutoffs": {
+    "dark": 0.72,
+    "light": 0.9,
+    "ticked_dark_frac": 0.07,
+    "unsure_light_frac": 0.025,
+    "cancel_dark_frac": 0.05
+  }
+}
